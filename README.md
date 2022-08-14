@@ -11,7 +11,7 @@ It is importatnt to undertand [Bayes' Theorem](https://www.investopedia.com/term
 ### Bayes' Theorem
 Bayes’ Theorem finds the probability of an event occurring given the probability of another event that has already occurred. Bayes’ theorem is stated mathematically as the following equation:
 
-<img src="images/1*LaTxXlJ0tz0dUvBqISvylw@2x.jpeg" width="400">
+<img src="images/naive.jpeg" width="400">
 
 ### Gaussian Naive Bayes Classifier
 In Gaussian Naive Bayes, continuous values associated with each feature are assumed to be distributed according to a Gaussian distribution.
