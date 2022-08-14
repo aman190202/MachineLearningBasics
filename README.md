@@ -22,11 +22,15 @@ To execute it :
 ```
 $ python gaussian_naive_bayes_iris.py
 ```
+## Support Vector Machine
+
+Support vector machines (SVMs, also support vector networks) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane.
+
+An SVM model is a representation of the examples as points in space, mapped so that the examples of the separate categories are divided by a clear gap that is as wide as possible. In addition to performing linear classification, SVMs can efficiently perform a non-linear classification, implicitly mapping their inputs into high-dimensional feature spaces.
 
 ## Decision Trees
-Pending
-## Support Vector Machine
-Pending
+
+
 ## Required Libraries
 ```
 $ pip install datascience
