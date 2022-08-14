@@ -35,9 +35,11 @@ There can be multiple hyperplane possible but we always choose that hyperplan wh
 Depending upon the data SVM can be of two types :
 
 1. Linear Separable SVM
+
 <img src="images/support-vector-machine-algorithm4.png" width="400"><br>
 
 2. Non-Linear Seperable SVM
+
 <img src="images/support-vector-machine-algorithm6.png" width="400"><br>
 
 We solve Non-Linear Separable SVM by using non Linear SVC kernels. The basic task of SVC kernel is to increase the dimensionality of the model to create hyperplane.
