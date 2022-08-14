@@ -1,4 +1,5 @@
 # Machine Learning Basics
+
 To Practically implement and study the effect of different optimizers on hyperparamters
 ## Naive Bayes Classification
 The fundamental Naive Bayes assumption is that each feature makes an:
@@ -24,9 +25,20 @@ $ python gaussian_naive_bayes_iris.py
 ```
 ## Support Vector Machine
 
-Support vector machines (SVMs, also support vector networks) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane.
+Support vector machines (SVMs, also known as support vector networks) are one of the popular algorithm in the world of machine learning. SVM is a supervised alogorithm and can be used to regression and classification problems.
+The goal of the SVM algorithm is to create the best line or decision boundary that can segregate n-dimensional space into classes so that we can easily put the new data point in the correct category in the future. This best decision boundary is called a hyperplane.
+SVM chooses the extreme points/vectors that help in creating the hyperplane. These extreme cases are called as support vectors, and hence algorithm is termed as Support Vector Machine.Two lines are drawn passing through support vecotors and this two lines is called margin line.
+There can be multiple hyperplane possible but we always choose that hyperplan who's margin distance is maximum because it will help us to generalise our model better.
 
-An SVM model is a representation of the examples as points in space, mapped so that the examples of the separate categories are divided by a clear gap that is as wide as possible. In addition to performing linear classification, SVMs can efficiently perform a non-linear classification, implicitly mapping their inputs into high-dimensional feature spaces.
+Depending upon the data SVM can be of two types :
+1. Linear Separable SVM
+2. Non-Linear Seperable SVM
+
+We solve Non-Linear Separable SVM by using non Linear SVC kernels. The basic task of SVC kernel is to increase the dimensionality of the model to create hyperplane.
+Depending upon the feautures present in the data there can be N-Dimensional hyperplane where N stands for number of features present in the data.
+
+
+
 
 ## Decision Trees
 Decision Trees are a type of Supervised Machine Learning where the data is continuously split according to a certain parameter. It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the decision rules and each leaf node represents the outcome.
